@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "poke-clothing:green_cloth"
+    },
+    "O": {
+      "item": "poke-clothing:orange_cloth"
+    }
+  },
+  "pattern": [
+    "O O",
+    "GOG",
+    "GGG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:brock_chestplate"
+  }
+}

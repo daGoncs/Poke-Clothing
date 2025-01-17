@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "poke-clothing:blue_cloth"
+    },
+    "C": {
+      "item": "poke-clothing:cyan_cloth"
+    },
+    "W": {
+      "item": "poke-clothing:white_cloth"
+    },
+    "Y": {
+      "item": "poke-clothing:yellow_cloth"
+    }
+  },
+  "pattern": [
+    "W W",
+    "BCB",
+    "BYB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:kanto_ash_chestplate"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "poke-clothing:green_cloth"
+    },
+    "R": {
+      "item": "poke-clothing:red_cloth"
+    },
+    "W": {
+      "item": "poke-clothing:white_cloth"
+    }
+  },
+  "pattern": [
+    "WGW",
+    "R R",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:kanto_ash_helmet"
+  }
+}

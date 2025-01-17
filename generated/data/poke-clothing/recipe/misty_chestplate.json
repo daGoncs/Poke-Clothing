@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "poke-clothing:red_cloth"
+    },
+    "Y": {
+      "item": "poke-clothing:yellow_cloth"
+    }
+  },
+  "pattern": [
+    "R R",
+    "YYY",
+    "YYY"
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:misty_chestplate"
+  }
+}

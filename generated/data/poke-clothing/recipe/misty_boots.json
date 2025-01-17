@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "poke-clothing:red_cloth"
+    }
+  },
+  "pattern": [
+    "R R",
+    "R R",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:misty_boots"
+  }
+}

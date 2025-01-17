@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "poke-clothing:blue_cloth"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "B B",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:brock_boots"
+  }
+}

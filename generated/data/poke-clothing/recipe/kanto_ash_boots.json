@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "poke-clothing:white_cloth"
+    }
+  },
+  "pattern": [
+    "W W",
+    "W W",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:kanto_ash_boots"
+  }
+}

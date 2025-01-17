@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "poke-clothing:light_gray_cloth"
+    }
+  },
+  "pattern": [
+    "   ",
+    "L L",
+    "L L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:team_rocket_grunt_boots"
+  }
+}

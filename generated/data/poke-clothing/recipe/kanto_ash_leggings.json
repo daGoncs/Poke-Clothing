@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "poke-clothing:light_blue_cloth"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "L L",
+    "L L"
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:kanto_ash_leggings"
+  }
+}
