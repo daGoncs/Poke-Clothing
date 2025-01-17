@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "W W"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blue_wool"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "pokeclothing:brock_boots"
+  }
+}

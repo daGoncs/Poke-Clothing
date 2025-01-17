@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "G G"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "result": {
+    "item": "pokeclothing:team_rocket_grunt_boots"
+  }
+}

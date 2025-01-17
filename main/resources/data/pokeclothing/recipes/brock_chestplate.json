@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O O",
+    "GOG",
+    "GOG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:green_wool"
+    },
+    "O": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result": {
+    "item": "pokeclothing:brock_chestplate"
+  }
+}

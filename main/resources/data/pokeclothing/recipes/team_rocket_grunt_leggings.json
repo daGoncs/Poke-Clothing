@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "pokeclothing:team_rocket_grunt_leggings"
+  }
+}
