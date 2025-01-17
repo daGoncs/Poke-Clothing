@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "poke-clothing",
+	"version": "1.21.1-1.0",
+	"name": "Poke Clothing",
+	"description": "Adds clothes from Pokémon characters.",
+	"authors": [
+		"daGoncs"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/poke-clothing",
+		"sources": "https://github.com/daGoncs"
+	},
+	"license": "Apache License 2.0",
+	"icon": "assets/poke-clothing/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"github.dagoncs.PokeClothing"
+		],
+		"client": [
+			"github.dagoncs.PokeClothingClient"
+		],
+		"fabric-datagen": [
+			"github.dagoncs.PokeClothingDataGenerator"
+		]
+	},
+	"mixins": [
+		"poke-clothing.mixins.json",
+		{
+			"config": "poke-clothing.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
