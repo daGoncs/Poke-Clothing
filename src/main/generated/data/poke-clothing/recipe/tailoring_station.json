@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "poke-clothing:cloth"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "CC",
+    "PP",
+    "PP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:tailoring_station"
+  }
+}

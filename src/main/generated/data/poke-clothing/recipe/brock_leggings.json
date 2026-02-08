@@ -1,0 +1,30 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:brown_cloth"
+    },
+    {
+      "item": "poke-clothing:brown_cloth"
+    },
+    {
+      "item": "poke-clothing:brown_cloth"
+    },
+    {
+      "item": "poke-clothing:brown_cloth"
+    },
+    {
+      "item": "poke-clothing:brown_cloth"
+    },
+    {
+      "item": "poke-clothing:brown_cloth"
+    },
+    {
+      "item": "poke-clothing:brown_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:brock_leggings"
+  }
+}

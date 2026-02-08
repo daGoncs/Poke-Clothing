@@ -1,0 +1,33 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
+      "item": "poke-clothing:light_gray_cloth"
+    },
+    {
+      "item": "poke-clothing:light_gray_cloth"
+    },
+    {
+      "item": "poke-clothing:red_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:team_rocket_grunt_chestplate"
+  }
+}
