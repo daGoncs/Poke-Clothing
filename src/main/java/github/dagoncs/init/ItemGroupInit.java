@@ -13,6 +13,7 @@ public class ItemGroupInit {
             .displayName(CREATIVE_TAB)
             .icon(ItemInit.KANTO_ASH_HELMET::getDefaultStack)
             .entries((displayContext, entries) -> {
+                entries.add(BlockInit.TAILORING_STATION);
                 entries.add(ItemInit.WHITE_CLOTH);
                 entries.add(ItemInit.LIGHT_GRAY_CLOTH);
                 entries.add(ItemInit.GRAY_CLOTH);
@@ -39,11 +40,35 @@ public class ItemGroupInit {
                 entries.add(ItemInit.BROCK_CHESTPLATE);
                 entries.add(ItemInit.BROCK_LEGGINGS);
                 entries.add(ItemInit.BROCK_BOOTS);
+                entries.add(ItemInit.JESSIE_CHESTPLATE);
+                entries.add(ItemInit.JESSIE_LEGGINGS);
+                entries.add(ItemInit.JESSIE_BOOTS);
+                entries.add(ItemInit.JAMES_CHESTPLATE);
+                entries.add(ItemInit.JAMES_LEGGINGS);
+                entries.add(ItemInit.JAMES_BOOTS);
+                entries.add(ItemInit.DAWN_HELMET);
+                entries.add(ItemInit.DAWN_CHESTPLATE);
+                entries.add(ItemInit.DAWN_LEGGINGS);
+                entries.add(ItemInit.DAWN_BOOTS);
+                entries.add(ItemInit.PLATINUM_DAWN_CHESTPLATE);
+                entries.add(ItemInit.PLATINUM_DAWN_LEGGINGS);
+                entries.add(ItemInit.PLATINUM_DAWN_BOOTS);
+                entries.add(ItemInit.BRENDAN_HELMET);
+                entries.add(ItemInit.BRENDAN_CHESTPLATE);
+                entries.add(ItemInit.BRENDAN_LEGGINGS);
+                entries.add(ItemInit.BRENDAN_BOOTS);
+                entries.add(ItemInit.EMERALD_BRENDAN_HELMET);
+                entries.add(ItemInit.EMERALD_BRENDAN_CHESTPLATE);
+                entries.add(ItemInit.EMERALD_BRENDAN_LEGGINGS);
+                entries.add(ItemInit.EMERALD_BRENDAN_BOOTS);
+                entries.add(ItemInit.RED_HELMET);
+                entries.add(ItemInit.RED_CHESTPLATE);
+                entries.add(ItemInit.RED_LEGGINGS);
+                entries.add(ItemInit.RED_BOOTS);
                 entries.add(ItemInit.TEAM_ROCKET_GRUNT_HELMET);
                 entries.add(ItemInit.TEAM_ROCKET_GRUNT_CHESTPLATE);
                 entries.add(ItemInit.TEAM_ROCKET_GRUNT_LEGGINGS);
                 entries.add(ItemInit.TEAM_ROCKET_GRUNT_BOOTS);
-                entries.add(BlockInit.TAILORING_STATION);
             })
             .build());
 

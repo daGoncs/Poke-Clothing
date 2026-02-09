@@ -14,7 +14,6 @@ public class PokeClothingModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator generator) {
-        // 1. Define your custom textures
         TextureMap mapping = new TextureMap()
                 .put(TextureKey.PARTICLE, TextureMap.getSubId(BlockInit.TAILORING_STATION, "_front"))
                 .put(TextureKey.SIDE, TextureMap.getSubId(BlockInit.TAILORING_STATION, "_side"))
@@ -22,13 +21,9 @@ public class PokeClothingModelProvider extends FabricModelProvider {
                 .put(TextureKey.TOP, TextureMap.getSubId(BlockInit.TAILORING_STATION, "_top"))
                 .put(TextureKey.BOTTOM, TextureMap.getSubId(BlockInit.TAILORING_STATION, "_bottom"));
 
-        // 2. Create the Model and Upload it
-        // This generates "assets/poke-clothing/models/block/tailoring_station.json"
         Identifier modelId = TexturedModel.makeFactory(b -> mapping, Models.ORIENTABLE_WITH_BOTTOM)
                 .upload(BlockInit.TAILORING_STATION, generator.modelCollector);
 
-        // 3. Register the Rotation Logic
-        // This generates "assets/poke-clothing/blockstates/tailoring_station.json"
         generator.blockStateCollector.accept(
                 VariantsBlockStateSupplier.create(BlockInit.TAILORING_STATION, BlockStateVariant.create().put(VariantSettings.MODEL, modelId))
                         .coordinate(BlockStateModelGenerator.createNorthDefaultHorizontalRotationStates())
@@ -63,6 +58,31 @@ public class PokeClothingModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ItemInit.BROCK_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.BROCK_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ItemInit.BROCK_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.JESSIE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.JESSIE_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.JESSIE_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.JAMES_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.JAMES_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.JAMES_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.DAWN_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.DAWN_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.DAWN_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.DAWN_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.PLATINUM_DAWN_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.PLATINUM_DAWN_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.PLATINUM_DAWN_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BRENDAN_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BRENDAN_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BRENDAN_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.BRENDAN_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ItemInit.RED_BOOTS, Models.GENERATED);
         itemModelGenerator.register(ItemInit.TEAM_ROCKET_GRUNT_HELMET, Models.GENERATED);
         itemModelGenerator.register(ItemInit.TEAM_ROCKET_GRUNT_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ItemInit.TEAM_ROCKET_GRUNT_LEGGINGS, Models.GENERATED);

@@ -25,4 +25,7 @@ public class PokeClothingREIClientPlugin implements REIClientPlugin {
                 TailoringDisplay::new
         );
     }
+
+    @Override
+    public double getPriority() {return -1000.0;}
 }

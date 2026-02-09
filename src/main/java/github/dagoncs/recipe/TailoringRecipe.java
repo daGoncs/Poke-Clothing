@@ -27,7 +27,7 @@ public class TailoringRecipe implements Recipe<RecipeInput> {
 
     @Override
     public boolean matches(RecipeInput input, World world) {
-        // 1. Create a list of copies so we don't mess up the actual inventory
+        // Creates a list of copies so we don't mess up the actual inventory
         List<ItemStack> testInventory = new java.util.ArrayList<>();
         for (int i = 0; i < input.getSize(); i++) {
             if (!input.getStackInSlot(i).isEmpty()) {
@@ -35,17 +35,17 @@ public class TailoringRecipe implements Recipe<RecipeInput> {
             }
         }
 
-        // 2. Iterate through every required ingredient
+        // Iterate through every required ingredient
         for (Ingredient requiredIngredient : this.ingredients) {
             boolean foundIngredient = false;
 
-            // 3. Look for a match in our test inventory
+            // Looks for a match in our test inventory
             for (ItemStack testStack : testInventory) {
                 // If it matches and we still have items left in this stack
                 if (requiredIngredient.test(testStack) && testStack.getCount() > 0) {
                     foundIngredient = true;
-                    testStack.decrement(1); // Virtually eat 1 item
-                    break; // Move to the next required ingredient
+                    testStack.decrement(1); // Virtually consumes 1 item
+                    break; // Moves to the next required ingredient
                 }
             }
 
@@ -55,8 +55,8 @@ public class TailoringRecipe implements Recipe<RecipeInput> {
             }
         }
 
-        // 4. Strict Check (Optional):
-        // If you want to forbid "extra" items (trash) in the slots, uncomment this:
+        // Strict Check
+        // Forbids "extra" items (trash) in the slots, uncomment this:
         /*
         for (ItemStack stack : testInventory) {
             if (stack.getCount() > 0) return false; // Fail if leftover items exist
@@ -98,7 +98,7 @@ public class TailoringRecipe implements Recipe<RecipeInput> {
         return ModRecipes.TAILORING_TYPE;
     }
 
-    // --- The Serializer (Handles reading the JSON) ---
+    // JSON Reader
     public static class Serializer implements RecipeSerializer<TailoringRecipe> {
         public static final MapCodec<TailoringRecipe> CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
                 Ingredient.DISALLOW_EMPTY_CODEC.listOf().fieldOf("ingredients").forGetter(recipe -> recipe.ingredients),

@@ -1,0 +1,30 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:yellow_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:brendan_leggings"
+  }
+}

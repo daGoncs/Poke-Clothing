@@ -1,0 +1,21 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:magenta_cloth"
+    },
+    {
+      "item": "poke-clothing:magenta_cloth"
+    },
+    {
+      "item": "poke-clothing:magenta_cloth"
+    },
+    {
+      "item": "poke-clothing:magenta_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:platinum_dawn_leggings"
+  }
+}

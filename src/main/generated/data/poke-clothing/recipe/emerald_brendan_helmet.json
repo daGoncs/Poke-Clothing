@@ -1,0 +1,18 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:green_cloth"
+    },
+    {
+      "item": "poke-clothing:green_cloth"
+    },
+    {
+      "item": "poke-clothing:lime_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:emerald_brendan_helmet"
+  }
+}
