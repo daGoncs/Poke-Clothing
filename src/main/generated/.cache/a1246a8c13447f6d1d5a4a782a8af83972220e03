@@ -1,4 +1,4 @@
-// 1.21.1	2026-02-09T19:18:24.9015537	Poke Clothing/Recipes
+// 1.21.1	2026-02-28T19:30:11.3172456	Poke Clothing/Recipes
 e4c01cf44a74f80e6c1c1601b852172602189078 data\poke-clothing\recipe\platinum_dawn_boots.json
 d4c434508a782a7dea3625aa9d768ee6629de523 data\poke-clothing\advancement\recipes\tailoring\james_boots.json
 3637a10fe86f5543f3be6ac562fb0fb286d3590a data\poke-clothing\advancement\recipes\tailoring\dawn_leggings.json
@@ -9,6 +9,7 @@ fad4e0142cbffa362ad754a9c69d9f2981b4f4aa data\poke-clothing\recipe\cyan_cloth.js
 ec167752458b2c94b459c3a3e68c59a0e5477e64 data\poke-clothing\recipe\light_blue_cloth.json
 9e2de451dbd7822a2545dc5ee51b6d221116ce3f data\poke-clothing\recipe\pink_cloth.json
 bd0f9cb34dcb8017ccee903fb80f8e0308b70750 data\poke-clothing\advancement\recipes\misc\gray_cloth.json
+3dc6ac2de3ff716cfa139b3765a869d541ffeb92 data\poke-clothing\advancement\recipes\tailoring\emerald_may_boots.json
 1a7b6360598baeed0107cd2c6cef321f219d681e data\poke-clothing\recipe\white_cloth.json
 f25b27db1d3589d37f7cd62207b7c05ab7e9b599 data\poke-clothing\advancement\recipes\misc\light_gray_cloth.json
 c85333f9de1435ef0757e7b0bffaa69192952aa7 data\poke-clothing\advancement\recipes\tailoring\platinum_dawn_boots.json
@@ -20,7 +21,9 @@ a8a618b9f780f8d15b8f4ddf0489972de911778f data\poke-clothing\recipe\team_rocket_g
 b95b37d31795bdc1760b0719a07f240ae6344d88 data\poke-clothing\recipe\misty_chestplate.json
 2fc57331388dbb1acbcb2033b5c813511c29b433 data\poke-clothing\advancement\recipes\tailoring\red_boots.json
 01a6aa5385daab55b482f9d29178a25b8ba19cde data\poke-clothing\recipe\brock_boots.json
+d5eee655d9efaa1b997cbe327191d0b0f2e9430d data\poke-clothing\recipe\emerald_may_helmet.json
 df33128626d21dbc242301172f014ab5e270c5d8 data\poke-clothing\advancement\recipes\tailoring\jessie_boots.json
+4c405ef7015b9d72f503b96be259c429f2a35ae6 data\poke-clothing\advancement\recipes\tailoring\emerald_may_leggings.json
 1af3e13a603e43885911c1732abf0855ad25e3f7 data\poke-clothing\recipe\misty_boots.json
 f3ee3cec61fc01ace24a04c6badf2d4f19db680c data\poke-clothing\advancement\recipes\tailoring\kanto_ash_chestplate.json
 ae96d61770eee1ea930d430c2154c39784187f01 data\poke-clothing\advancement\recipes\tailoring\jessie_leggings.json
@@ -28,6 +31,7 @@ f93b411064c9413655f49c0e43a36bd82865e0a3 data\poke-clothing\advancement\recipes\
 ed8b01106bc1e66a063ff2570b251e92a07ed1cf data\poke-clothing\recipe\brown_cloth.json
 5905fb2a31cea7328a5be33e415aaf15334dfb35 data\poke-clothing\advancement\recipes\tailoring\misty_chestplate.json
 59ec438555872b4149a67aedaa27c9c759c3cae9 data\poke-clothing\recipe\team_rocket_grunt_boots.json
+9dc75f0e9431ed7224aec3012d1b6aac03e39a9d data\poke-clothing\recipe\may_leggings.json
 46c3303ed5049d817962d6935fa9ede30447716c data\poke-clothing\recipe\red_cloth.json
 6bd7e57aba7eb9adf83edbc983474f12695ae141 data\poke-clothing\recipe\platinum_dawn_leggings.json
 5d0e2b86ae0511a1525b78f625aac36b92c664ff data\poke-clothing\advancement\recipes\tailoring\emerald_brendan_leggings.json
@@ -50,8 +54,10 @@ ee325c328d6aeb1bf5d0c6582092a0d6b8076b99 data\poke-clothing\advancement\recipes\
 b525a47467be80ad5fb93a32596e1696c944182e data\poke-clothing\recipe\red_chestplate.json
 2a495e120779032d5eefbad416b261d2073def09 data\poke-clothing\advancement\recipes\misc\pink_cloth.json
 f8cbe1207540683f4676f92f0c9443e1cd160b02 data\poke-clothing\recipe\jessie_leggings.json
+d50e0e150c884ccc9eeaa7ad92de03fa00a4df04 data\poke-clothing\advancement\recipes\tailoring\may_helmet.json
 7682381a570e7fedbe20c74feb3d3f6462dcc662 data\poke-clothing\advancement\recipes\misc\magenta_cloth.json
 90f4f2bf759fb0d8d33578c9d034244558699426 data\poke-clothing\recipe\blue_cloth.json
+82ffd0fe9e2ef956db82917e8b0464b7f6d6fb99 data\poke-clothing\advancement\recipes\tailoring\emerald_may_helmet.json
 6ebc5ce1debeba1474ba24861cf521501dad95af data\poke-clothing\advancement\recipes\misc\brown_cloth.json
 d7b2187dd6ddd0a87927b0816882f5d4c8515452 data\poke-clothing\recipe\dawn_leggings.json
 9e1beca0846605435f580a7db94cf953aed96d00 data\poke-clothing\advancement\recipes\tailoring\emerald_brendan_helmet.json
@@ -59,20 +65,25 @@ d7b2187dd6ddd0a87927b0816882f5d4c8515452 data\poke-clothing\recipe\dawn_leggings
 31fcce9fcb6d0616b2c4e70fd355f406ea952060 data\poke-clothing\advancement\recipes\misc\black_cloth.json
 52f87e5de99a195637f843bd1fe997a521c7c68e data\poke-clothing\advancement\recipes\tailoring\kanto_ash_leggings.json
 425f481b081b40039f4497b30e3d9693da4027e5 data\poke-clothing\advancement\recipes\misc\green_cloth.json
+a8caf8dc798734db9f9a5f98bedeab9b3263af14 data\poke-clothing\recipe\emerald_may_boots.json
 418e580c611e4769f0b65660c7567938d8c1bf7a data\poke-clothing\advancement\recipes\misc\lime_cloth.json
 527eab15ad27bf67b74cc2a81c6d902d51996fcd data\poke-clothing\advancement\recipes\tailoring\misty_boots.json
 2274d210de04ba6964c43ea9e37b82a731f3b2e1 data\poke-clothing\advancement\recipes\tailoring\team_rocket_grunt_chestplate.json
 f9b8019db714354a17f40b60e2656553079c8732 data\poke-clothing\recipe\kanto_ash_boots.json
+177cdb050551323f59518e7fd3f3b2cf9cc1bc95 data\poke-clothing\advancement\recipes\tailoring\may_boots.json
 aeeb51ea13e84fc816e064db2d78ca98fe11b62b data\poke-clothing\advancement\recipes\tailoring\brendan_leggings.json
 f4b29a431216acabded216ce6f37b1a0253aa6ad data\poke-clothing\advancement\recipes\decorations\tailoring_station.json
 9aef808fd03d4896f09735f362e6448fcbbe08cb data\poke-clothing\advancement\recipes\tailoring\brock_leggings.json
 3263e897e51a71a40111774ffe40a27c230ec153 data\poke-clothing\recipe\team_rocket_grunt_chestplate.json
 6f518782b1f1a814ee536a1064f2ce205585966f data\poke-clothing\recipe\misty_leggings.json
+bfe06320e12846dc995a4d65c65b084ffca5f6c0 data\poke-clothing\recipe\may_chestplate.json
+b6394c01d140092de750c5d3f666cf6f035daa79 data\poke-clothing\recipe\may_boots.json
 a6aefff00098f9bddb9ff8d2f24f15900b39cad8 data\poke-clothing\recipe\red_leggings.json
 17fa2d414e6029a0df266cd486e7b71e9ac9d4c0 data\poke-clothing\recipe\green_cloth.json
 b1b3a699e08abf93e3e007590829207e841777aa data\poke-clothing\advancement\recipes\misc\yellow_cloth.json
 4c1cc55118bb3bd0af35548adf0ed20431d66326 data\poke-clothing\advancement\recipes\tailoring\kanto_ash_boots.json
 0956c0c71c9802edef42beb5db79594f9cada26b data\poke-clothing\recipe\black_cloth.json
+d9b5e15d9383d127a7fb41f43caeba951022400a data\poke-clothing\advancement\recipes\tailoring\may_leggings.json
 eb2fc3f8b26c15479c6a2041132e5fca44fd3fce data\poke-clothing\advancement\recipes\tailoring\platinum_dawn_leggings.json
 cad7dc2d347272c33edb9f0839f7f17ce0319454 data\poke-clothing\advancement\recipes\tailoring\brendan_boots.json
 7b9049cb6ba4dc33eb84fc5c1eae9dcc0ce9307a data\poke-clothing\advancement\recipes\tailoring\emerald_brendan_boots.json
@@ -80,9 +91,12 @@ cad7dc2d347272c33edb9f0839f7f17ce0319454 data\poke-clothing\advancement\recipes\
 85dbc63913bde7fc9ae92595c430761072038573 data\poke-clothing\advancement\recipes\tailoring\emerald_brendan_chestplate.json
 2e5f99e0c74490d1559466ea63e98356e7433096 data\poke-clothing\recipe\brendan_chestplate.json
 dab92fcd55217ceff240d84ea8968f2689c544aa data\poke-clothing\advancement\recipes\tailoring\red_helmet.json
+870d598a380932e41216d4eaabf90459f1489b44 data\poke-clothing\advancement\recipes\tailoring\may_chestplate.json
 bcb0193e6bb382f1bf928780f97c1a0ee87913c0 data\poke-clothing\advancement\recipes\tailoring\misty_leggings.json
 a52b8bdbcd7db14e4daea44f51ee5ff5560185e6 data\poke-clothing\advancement\recipes\tailoring\brock_chestplate.json
+10ff47b809450bebbd05117b6c6b0f924597a49b data\poke-clothing\advancement\recipes\tailoring\emerald_may_chestplate.json
 51af17cfd365162faaca13ca0e1c9334bc0a9490 data\poke-clothing\recipe\emerald_brendan_helmet.json
+e95dc65fbf7a9e3dc23d67fda6a9c47beb565d34 data\poke-clothing\recipe\may_helmet.json
 264f0e06b4ddb95bbfcf29f08789f11c53494d45 data\poke-clothing\recipe\dawn_helmet.json
 f2cc94c1dc91d734db1bd330005f7b35f1da09c8 data\poke-clothing\advancement\recipes\misc\blue_cloth.json
 318b2fe52b6dd2c05a3c4b048e2b086d90dab930 data\poke-clothing\recipe\gray_cloth.json
@@ -97,6 +111,7 @@ efcbcd9a721925aab2ca4552107f6cc3039fdf34 data\poke-clothing\advancement\recipes\
 33d910cc2cac12b8737244835f13686195f40f0d data\poke-clothing\recipe\light_gray_cloth.json
 2507fd76e4e43c5ae04765035f3f0abee603bcbd data\poke-clothing\recipe\magenta_cloth.json
 ace8a6dc129a601c6a96a389bdf85e4f62523f3d data\poke-clothing\recipe\james_boots.json
+332fd0f9b1ec8967905090d10d005baa50a1dd9f data\poke-clothing\recipe\emerald_may_chestplate.json
 36db3d3c4e9aedddd0dbea4fb7afe7f813621df6 data\poke-clothing\advancement\recipes\tailoring\dawn_helmet.json
 60e973785659cbcdebcab6beb8de2bf46f666706 data\poke-clothing\advancement\recipes\tailoring\brendan_helmet.json
 96cc8809ce5e78734f5a718ab125c7f480cf0288 data\poke-clothing\advancement\recipes\tailoring\kanto_ash_helmet.json
@@ -106,6 +121,7 @@ e70df7516201e4b5515555a755e1d0ee6c5002ad data\poke-clothing\recipe\kanto_ash_leg
 6bdadd961d0b1cd45ae1bc521d755a62a27b3b59 data\poke-clothing\recipe\dawn_boots.json
 ebee624afd4a972319dae9e06a7bc8a87a1e24ca data\poke-clothing\recipe\kanto_ash_helmet.json
 a12f72fa3dceb1087c7a7659529bef49f5bd6a07 data\poke-clothing\advancement\recipes\tailoring\team_rocket_grunt_boots.json
+7d8577f735acbfb42c17aa4563056afb01663b18 data\poke-clothing\recipe\emerald_may_leggings.json
 7b26e20d03ed1766c76ec4fa84c09944cba6cc4f data\poke-clothing\advancement\recipes\tailoring\dawn_chestplate.json
 32f374dad33ade89764c519f2d7e700e7983bd02 data\poke-clothing\recipe\purple_cloth.json
 116e8e74ad3b9f36260b87da00924dfe52c8dfe9 data\poke-clothing\recipe\lime_cloth.json

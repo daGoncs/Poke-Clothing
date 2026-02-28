@@ -1,0 +1,27 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:orange_cloth"
+    },
+    {
+      "item": "poke-clothing:orange_cloth"
+    },
+    {
+      "item": "poke-clothing:orange_cloth"
+    },
+    {
+      "item": "poke-clothing:orange_cloth"
+    },
+    {
+      "item": "poke-clothing:lime_cloth"
+    },
+    {
+      "item": "poke-clothing:light_gray_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:emerald_may_chestplate"
+  }
+}

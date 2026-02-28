@@ -36,6 +36,8 @@ public class ArmorMaterialInit {
     public static final RegistryEntry<ArmorMaterial> BROCK = register("brock");
     public static final RegistryEntry<ArmorMaterial> JESSIE = register("jessie");
     public static final RegistryEntry<ArmorMaterial> JAMES = register("james");
+    public static final RegistryEntry<ArmorMaterial> MAY = register("may");
+    public static final RegistryEntry<ArmorMaterial> EMERALD_MAY = register("emerald_may");
     public static final RegistryEntry<ArmorMaterial> DAWN = register("dawn");
     public static final RegistryEntry<ArmorMaterial> PLATINUM_DAWN = register("platinum_dawn");
     public static final RegistryEntry<ArmorMaterial> BRENDAN = register("brendan");

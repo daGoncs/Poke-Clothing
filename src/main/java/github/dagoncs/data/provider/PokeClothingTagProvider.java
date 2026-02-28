@@ -1,14 +1,16 @@
 package github.dagoncs.data.provider;
 
 import github.dagoncs.PokeClothing;
-import github.dagoncs.init.ItemInit;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -21,35 +23,24 @@ public class PokeClothingTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.WHITE_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.LIGHT_GRAY_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.GRAY_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.BLACK_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.BROWN_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.RED_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.ORANGE_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.YELLOW_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.LIME_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.GREEN_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.CYAN_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.LIGHT_BLUE_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.BLUE_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.PURPLE_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.MAGENTA_CLOTH);
-        getOrCreateTagBuilder(CLOTH).add(ItemInit.PINK_CLOTH);
-        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR).add(ItemInit.KANTO_ASH_HELMET);
-        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR).add(ItemInit.KANTO_ASH_CHESTPLATE);
-        getOrCreateTagBuilder(ItemTags.LEG_ARMOR).add(ItemInit.KANTO_ASH_LEGGINGS);
-        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR).add(ItemInit.KANTO_ASH_BOOTS);
-        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR).add(ItemInit.MISTY_CHESTPLATE);
-        getOrCreateTagBuilder(ItemTags.LEG_ARMOR).add(ItemInit.MISTY_LEGGINGS);
-        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR).add(ItemInit.MISTY_BOOTS);
-        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR).add(ItemInit.BROCK_CHESTPLATE);
-        getOrCreateTagBuilder(ItemTags.LEG_ARMOR).add(ItemInit.BROCK_LEGGINGS);
-        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR).add(ItemInit.BROCK_BOOTS);
-        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR).add(ItemInit.TEAM_ROCKET_GRUNT_HELMET);
-        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR).add(ItemInit.TEAM_ROCKET_GRUNT_CHESTPLATE);
-        getOrCreateTagBuilder(ItemTags.LEG_ARMOR).add(ItemInit.TEAM_ROCKET_GRUNT_LEGGINGS);
-        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR).add(ItemInit.TEAM_ROCKET_GRUNT_BOOTS);
+
+        for (Item item : Registries.ITEM) {
+            Identifier id = Registries.ITEM.getId(item);
+
+            if (id.getNamespace().equals(PokeClothing.id("dummy").getNamespace())) {
+
+                if (item instanceof ArmorItem armorItem) {
+                    switch (armorItem.getType()) {
+                        case HELMET -> getOrCreateTagBuilder(ItemTags.HEAD_ARMOR).add(item);
+                        case CHESTPLATE -> getOrCreateTagBuilder(ItemTags.CHEST_ARMOR).add(item);
+                        case LEGGINGS -> getOrCreateTagBuilder(ItemTags.LEG_ARMOR).add(item);
+                        case BOOTS -> getOrCreateTagBuilder(ItemTags.FOOT_ARMOR).add(item);
+                    }
+                }
+                else if (id.getPath().endsWith("_cloth")) {
+                    getOrCreateTagBuilder(CLOTH).add(item);
+                }
+            }
+        }
     }
 }

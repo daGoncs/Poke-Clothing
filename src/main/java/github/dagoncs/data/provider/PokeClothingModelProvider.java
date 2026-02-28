@@ -1,10 +1,13 @@
 package github.dagoncs.data.provider;
 
+import github.dagoncs.PokeClothing;
 import github.dagoncs.init.BlockInit;
-import github.dagoncs.init.ItemInit;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.Item;
+import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 
 public class PokeClothingModelProvider extends FabricModelProvider {
@@ -32,60 +35,13 @@ public class PokeClothingModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ItemInit.WHITE_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.LIGHT_GRAY_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.GRAY_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BLACK_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BROWN_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.RED_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.ORANGE_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.YELLOW_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.LIME_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.GREEN_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.CYAN_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.LIGHT_BLUE_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BLUE_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.PURPLE_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.MAGENTA_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.PINK_CLOTH, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.KANTO_ASH_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.KANTO_ASH_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.KANTO_ASH_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.KANTO_ASH_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.MISTY_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.MISTY_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.MISTY_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BROCK_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BROCK_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BROCK_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.JESSIE_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.JESSIE_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.JESSIE_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.JAMES_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.JAMES_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.JAMES_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.DAWN_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.DAWN_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.DAWN_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.DAWN_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.PLATINUM_DAWN_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.PLATINUM_DAWN_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.PLATINUM_DAWN_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BRENDAN_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BRENDAN_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BRENDAN_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.BRENDAN_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.EMERALD_BRENDAN_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.RED_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.RED_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.RED_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.RED_BOOTS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.TEAM_ROCKET_GRUNT_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.TEAM_ROCKET_GRUNT_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.TEAM_ROCKET_GRUNT_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ItemInit.TEAM_ROCKET_GRUNT_BOOTS, Models.GENERATED);
+        for (Item item : Registries.ITEM) {
+            Identifier id = Registries.ITEM.getId(item);
+            if (id.getNamespace().equals(PokeClothing.id("dummy").getNamespace())) {
+                if (item instanceof ArmorItem || id.getPath().endsWith("_cloth")) {
+                    itemModelGenerator.register(item, Models.GENERATED);
+                }
+            }
+        }
     }
 }
