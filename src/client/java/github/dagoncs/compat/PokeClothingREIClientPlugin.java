@@ -1,6 +1,6 @@
 package github.dagoncs.compat;
 
-import github.dagoncs.init.BlockInit;
+import github.dagoncs.block.BlockInit;
 import github.dagoncs.recipe.ModRecipes;
 import github.dagoncs.recipe.TailoringRecipe;
 import me.shedaniel.rei.api.client.plugins.REIClientPlugin;

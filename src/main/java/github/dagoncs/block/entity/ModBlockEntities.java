@@ -3,7 +3,7 @@ package github.dagoncs.block.entity;
 
 import github.dagoncs.block.entity.custom.TailoringStationBlockEntity;
 import github.dagoncs.PokeClothing;
-import github.dagoncs.init.BlockInit;
+import github.dagoncs.block.BlockInit;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

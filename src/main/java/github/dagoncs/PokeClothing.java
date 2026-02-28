@@ -2,7 +2,7 @@ package github.dagoncs;
 
 import github.dagoncs.block.entity.ModBlockEntities;
 import github.dagoncs.init.ArmorMaterialInit;
-import github.dagoncs.init.BlockInit;
+import github.dagoncs.block.BlockInit;
 import github.dagoncs.init.ItemGroupInit;
 import github.dagoncs.init.ItemInit;
 import github.dagoncs.recipe.ModRecipes;

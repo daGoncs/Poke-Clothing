@@ -1,7 +1,7 @@
 package github.dagoncs.data.provider;
 
 import github.dagoncs.PokeClothing;
-import github.dagoncs.init.BlockInit;
+import github.dagoncs.block.BlockInit;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
@@ -38,9 +38,11 @@ public class PokeClothingModelProvider extends FabricModelProvider {
         for (Item item : Registries.ITEM) {
             Identifier id = Registries.ITEM.getId(item);
             if (id.getNamespace().equals(PokeClothing.id("dummy").getNamespace())) {
-                if (item instanceof ArmorItem || id.getPath().endsWith("_cloth")) {
+
+                if (item instanceof ArmorItem || id.getPath().endsWith("_cloth") || id.getPath().equals("ash_cap_icon")) {
                     itemModelGenerator.register(item, Models.GENERATED);
                 }
+
             }
         }
     }

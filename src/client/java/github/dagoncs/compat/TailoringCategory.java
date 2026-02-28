@@ -1,7 +1,7 @@
 package github.dagoncs.compat;
 
 import github.dagoncs.PokeClothing;
-import github.dagoncs.init.BlockInit;
+import github.dagoncs.block.BlockInit;
 import me.shedaniel.math.Point;
 import me.shedaniel.math.Rectangle;
 import me.shedaniel.rei.api.client.gui.Renderer;

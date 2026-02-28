@@ -1,7 +1,7 @@
   {
 	"schemaVersion": 1,
 	"id": "poke-clothing",
-	"version": "1.21.1-1.1.2",
+	"version": "1.21.1-1.2.0",
 	"name": "Poke Clothing",
 	"description": "Adds clothes from Pokémon characters.",
 	"authors": [

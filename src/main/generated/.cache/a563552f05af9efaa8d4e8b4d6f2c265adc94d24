@@ -1,6 +1,6 @@
-// 1.21.1	2026-02-28T19:30:11.3222401	Poke Clothing/Tags for minecraft:item
-9baea1dff9a3972ab9cfd1157cd350f9ddae9345 data\minecraft\tags\item\chest_armor.json
-7f06468daba48cfa76d3264a0317de31bbf01444 data\minecraft\tags\item\head_armor.json
-ce3bc107d7923698d7c5fb2e9085a5018fb1f4b3 data\minecraft\tags\item\leg_armor.json
+// 1.21.1	2026-04-23T11:52:06.1846833	Poke Clothing/Tags for minecraft:item
+31f3f78264941d0663263fffca78987504c9d374 data\minecraft\tags\item\chest_armor.json
+3be0f42602283cbd3376df212d1d68f2aa84cb56 data\minecraft\tags\item\head_armor.json
+bb859221a1eb0266bc0ad91de1bd3749ce4d2ed8 data\minecraft\tags\item\leg_armor.json
 0830dcc19a3324ee61a09b1350c97c552c188296 data\poke-clothing\tags\item\cloth.json
-60b1dc8044951d4e736fd40b15286e690669c304 data\minecraft\tags\item\foot_armor.json
+0021ab62a813eca4281712ba1d00342effc29040 data\minecraft\tags\item\foot_armor.json

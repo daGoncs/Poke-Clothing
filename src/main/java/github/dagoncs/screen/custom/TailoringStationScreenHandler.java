@@ -1,7 +1,7 @@
 package github.dagoncs.screen.custom;
 
 import github.dagoncs.data.provider.PokeClothingTagProvider; // <--- ADD THIS IMPORT
-import github.dagoncs.init.BlockInit;
+import github.dagoncs.block.BlockInit;
 import github.dagoncs.recipe.ModRecipes;
 import github.dagoncs.recipe.TailoringRecipe;
 import github.dagoncs.screen.ModScreenHandlers;

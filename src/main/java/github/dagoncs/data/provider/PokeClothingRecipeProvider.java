@@ -1,7 +1,7 @@
 package github.dagoncs.data.provider;
 
 import github.dagoncs.data.provider.builder.TailoringRecipeBuilder;
-import github.dagoncs.init.BlockInit;
+import github.dagoncs.block.BlockInit;
 import github.dagoncs.init.ItemInit;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -89,7 +89,9 @@ public class PokeClothingRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
 
         TailoringRecipeBuilder.create(ItemInit.KANTO_ASH.boots())
-                .input(whiteCloth, 4)
+                .input(grayCloth, 2)
+                .input(whiteCloth, 1)
+                .input(redCloth, 1)
                 .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
                 .offerTo(exporter);
 
@@ -157,6 +159,29 @@ public class PokeClothingRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
                 .offerTo(exporter);
 
+        // HOENN ASH SET
+        TailoringRecipeBuilder.create(ItemInit.HOENN_ASH.helmet())
+                .input(redCloth, 2).input(blackCloth, 2).input(limeCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.HOENN_ASH.chestplate())
+                .input(blueCloth, 4).input(blackCloth, 2).input(whiteCloth, 1).input(yellowCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.HOENN_ASH.leggings())
+                .input(lightBlueCloth, 7)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.HOENN_ASH.boots())
+                .input(blueCloth, 2)
+                .input(whiteCloth, 1)
+                .input(grayCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
         // MAY SET
         TailoringRecipeBuilder.create(ItemInit.MAY.helmet())
                 .input(redCloth, 4).input(whiteCloth, 1)
@@ -196,6 +221,29 @@ public class PokeClothingRecipeProvider extends FabricRecipeProvider {
 
         TailoringRecipeBuilder.create(ItemInit.EMERALD_MAY.boots())
                 .input(limeCloth, 2).input(orangeCloth, 2)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        // SINNOH ASH SET
+        TailoringRecipeBuilder.create(ItemInit.SINNOH_ASH.helmet())
+                .input(redCloth, 2).input(whiteCloth, 2).input(lightBlueCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.SINNOH_ASH.chestplate())
+                .input(blackCloth, 4).input(whiteCloth, 1).input(yellowCloth, 3)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.SINNOH_ASH.leggings())
+                .input(lightBlueCloth, 7)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.SINNOH_ASH.boots())
+                .input(redCloth, 2)
+                .input(whiteCloth, 1)
+                .input(grayCloth, 1)
                 .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
                 .offerTo(exporter);
 
@@ -275,6 +323,100 @@ public class PokeClothingRecipeProvider extends FabricRecipeProvider {
 
         TailoringRecipeBuilder.create(ItemInit.EMERALD_BRENDAN.boots())
                 .input(redCloth, 2).input(whiteCloth, 1).input(limeCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        // UNOVA ASH SET
+        TailoringRecipeBuilder.create(ItemInit.UNOVA_ASH.helmet())
+                .input(redCloth, 2).input(whiteCloth, 2).input(blueCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.UNOVA_ASH.chestplate())
+                .input(whiteCloth, 2).input(blueCloth, 2).input(blackCloth, 2).input(yellowCloth, 1).input(redCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.UNOVA_ASH.leggings())
+                .input(lightGrayCloth, 7)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.UNOVA_ASH.boots())
+                .input(redCloth, 2)
+                .input(whiteCloth, 1)
+                .input(blackCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        // KALOS ASH SET
+        TailoringRecipeBuilder.create(ItemInit.KALOS_ASH.helmet())
+                .input(redCloth, 3).input(whiteCloth, 2)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.KALOS_ASH.chestplate())
+                .input(blueCloth, 3).input(whiteCloth, 2).input(blackCloth, 2).input(redCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.KALOS_ASH.leggings())
+                .input(cyanCloth, 7)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.KALOS_ASH.boots())
+                .input(redCloth, 1)
+                .input(whiteCloth, 1)
+                .input(blackCloth, 1)
+                .input(blueCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        // ALOLA ASH SET
+        TailoringRecipeBuilder.create(ItemInit.ALOLA_ASH.helmet())
+                .input(redCloth, 3).input(whiteCloth, 1).input(blueCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.ALOLA_ASH.chestplate())
+                .input(blueCloth, 4).input(whiteCloth, 4)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.ALOLA_ASH.leggings())
+                .input(grayCloth, 2)
+                .input(redCloth, 2)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.ALOLA_ASH.boots())
+                .input(blueCloth, 2)
+                .input(lightBlueCloth, 1)
+                .input(whiteCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        // GALAR ASH SET
+        TailoringRecipeBuilder.create(ItemInit.GALAR_ASH.helmet())
+                .input(redCloth, 3).input(whiteCloth, 1).input(limeCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.GALAR_ASH.chestplate())
+                .input(blueCloth, 3).input(whiteCloth, 3).input(yellowCloth, 1).input(redCloth, 1)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.GALAR_ASH.leggings())
+                .input(cyanCloth, 4)
+                .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
+                .offerTo(exporter);
+
+        TailoringRecipeBuilder.create(ItemInit.GALAR_ASH.boots())
+                .input(blueCloth, 2)
+                .input(grayCloth, 1)
+                .input(whiteCloth, 1)
                 .criterion("has_cloth", conditionsFromTag(PokeClothingTagProvider.CLOTH))
                 .offerTo(exporter);
 

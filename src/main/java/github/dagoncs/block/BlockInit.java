@@ -1,4 +1,4 @@
-package github.dagoncs.init;
+package github.dagoncs.block;
 
 
 import github.dagoncs.PokeClothing;

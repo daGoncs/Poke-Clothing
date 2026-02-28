@@ -16,7 +16,6 @@ public class ItemInit {
     public static final Map<String, Item> CLOTHS = new LinkedHashMap<>();
 
     static {
-        // To add a new cloth "in the middle", just add it to this list!
         String[] colors = {
                 "white", "light_gray", "gray", "black", "brown", "red", "orange",
                 "yellow", "lime", "green", "cyan", "light_blue", "blue", "purple",
@@ -27,17 +26,24 @@ public class ItemInit {
         }
     }
 
+    public static final Item ASH_CAP_ICON = registerBase("ash_cap_icon");
     public static final ArmorPieces KANTO_ASH = registerSet("kanto_ash", ArmorMaterialInit.KANTO_ASH, true, true, true, true);
     public static final ArmorPieces MISTY = registerSet("misty", ArmorMaterialInit.MISTY, false, true, true, true);
     public static final ArmorPieces BROCK = registerSet("brock", ArmorMaterialInit.BROCK, false, true, true, true);
     public static final ArmorPieces JESSIE = registerSet("jessie", ArmorMaterialInit.JESSIE, false, true, true, true);
     public static final ArmorPieces JAMES = registerSet("james", ArmorMaterialInit.JAMES, false, true, true, true);
+    public static final ArmorPieces HOENN_ASH = registerSet("hoenn_ash", ArmorMaterialInit.HOENN_ASH, true, true, true, true);
     public static final ArmorPieces MAY = registerSet("may", ArmorMaterialInit.MAY, true, true, true, true);
     public static final ArmorPieces EMERALD_MAY = registerSet("emerald_may", ArmorMaterialInit.EMERALD_MAY, true, true, true, true);
+    public static final ArmorPieces SINNOH_ASH = registerSet("sinnoh_ash", ArmorMaterialInit.SINNOH_ASH, true, true, true, true);
     public static final ArmorPieces DAWN = registerSet("dawn", ArmorMaterialInit.DAWN, true, true, true, true);
     public static final ArmorPieces PLATINUM_DAWN = registerSet("platinum_dawn", ArmorMaterialInit.PLATINUM_DAWN, false, true, true, true);
     public static final ArmorPieces BRENDAN = registerSet("brendan", ArmorMaterialInit.BRENDAN, true, true, true, true);
     public static final ArmorPieces EMERALD_BRENDAN = registerSet("emerald_brendan", ArmorMaterialInit.EMERALD_BRENDAN, true, true, true, true);
+    public static final ArmorPieces UNOVA_ASH = registerSet("unova_ash", ArmorMaterialInit.UNOVA_ASH, true, true, true, true);
+    public static final ArmorPieces KALOS_ASH = registerSet("kalos_ash", ArmorMaterialInit.KALOS_ASH, true, true, true, true);
+    public static final ArmorPieces ALOLA_ASH = registerSet("alola_ash", ArmorMaterialInit.ALOLA_ASH, true, true, true, true);
+    public static final ArmorPieces GALAR_ASH = registerSet("galar_ash", ArmorMaterialInit.GALAR_ASH, true, true, true, true);
     public static final ArmorPieces RED = registerSet("red", ArmorMaterialInit.RED, true, true, true, true);
     public static final ArmorPieces TEAM_ROCKET_GRUNT = registerSet("team_rocket_grunt", ArmorMaterialInit.TEAM_ROCKET_GRUNT, true, true, true, true);
 

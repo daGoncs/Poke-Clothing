@@ -1,16 +1,12 @@
 # Changelog
 
-## [1.1.2] - 2026-02-25
+## [1.2.0] - 2026-04-23
 
 ### Added
-- Added May's outfit
-- Added May (Emerald)'s outfit
+- Added outfits for the remaining regions' Ash's outfits (Hoenn, Sinnoh, Unova, Kalos, Alola, and Galar)
 
 ### Changed
-- Updated PokeClothingTagProvider to automatically assign appropriate vanilla tags to all items
-- Updated PokeClothingModelProvider to use automated logic for model registration
-- Refactored tag attribution system for better maintainability and scalability
-
-### Fixed
-- Fixed several item sets missing their appropriate vanilla tags
-- All sets now correctly receive their intended tags
+- Updated creative tab icon to an animated sprite cycling through all of Ash's regional hats
+- Implemented new item textures for Brock
+- Updated item textures and 3D armor models for Misty and Ash (Kanto)
+- Updated the Tailoring Station recipe for Ash's Kanto Sneakers
