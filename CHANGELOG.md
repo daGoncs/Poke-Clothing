@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.2.0] - 2026-02-25
+## [1.1.2] - 2026-02-25
 
 ### Added
 - Added May's outfit
