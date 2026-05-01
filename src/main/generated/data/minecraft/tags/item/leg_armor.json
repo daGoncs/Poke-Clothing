@@ -5,9 +5,12 @@
     "poke-clothing:brock_leggings",
     "poke-clothing:jessie_leggings",
     "poke-clothing:james_leggings",
+    "poke-clothing:team_rocket_grunt_leggings",
     "poke-clothing:hoenn_ash_leggings",
     "poke-clothing:may_leggings",
     "poke-clothing:emerald_may_leggings",
+    "poke-clothing:team_magma_grunt_leggings",
+    "poke-clothing:team_aqua_grunt_leggings",
     "poke-clothing:sinnoh_ash_leggings",
     "poke-clothing:dawn_leggings",
     "poke-clothing:platinum_dawn_leggings",
@@ -17,7 +20,6 @@
     "poke-clothing:kalos_ash_leggings",
     "poke-clothing:alola_ash_leggings",
     "poke-clothing:galar_ash_leggings",
-    "poke-clothing:red_leggings",
-    "poke-clothing:team_rocket_grunt_leggings"
+    "poke-clothing:red_leggings"
   ]
 }

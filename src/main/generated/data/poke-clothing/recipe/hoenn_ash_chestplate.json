@@ -1,0 +1,33 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:blue_cloth"
+    },
+    {
+      "item": "poke-clothing:blue_cloth"
+    },
+    {
+      "item": "poke-clothing:blue_cloth"
+    },
+    {
+      "item": "poke-clothing:blue_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:black_cloth"
+    },
+    {
+      "item": "poke-clothing:white_cloth"
+    },
+    {
+      "item": "poke-clothing:yellow_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:hoenn_ash_chestplate"
+  }
+}

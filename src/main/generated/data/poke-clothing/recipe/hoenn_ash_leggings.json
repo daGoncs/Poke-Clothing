@@ -1,0 +1,30 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:light_blue_cloth"
+    },
+    {
+      "item": "poke-clothing:light_blue_cloth"
+    },
+    {
+      "item": "poke-clothing:light_blue_cloth"
+    },
+    {
+      "item": "poke-clothing:light_blue_cloth"
+    },
+    {
+      "item": "poke-clothing:light_blue_cloth"
+    },
+    {
+      "item": "poke-clothing:light_blue_cloth"
+    },
+    {
+      "item": "poke-clothing:light_blue_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:hoenn_ash_leggings"
+  }
+}

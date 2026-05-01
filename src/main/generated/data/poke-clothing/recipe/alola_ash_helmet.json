@@ -1,0 +1,24 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:red_cloth"
+    },
+    {
+      "item": "poke-clothing:red_cloth"
+    },
+    {
+      "item": "poke-clothing:red_cloth"
+    },
+    {
+      "item": "poke-clothing:white_cloth"
+    },
+    {
+      "item": "poke-clothing:blue_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:alola_ash_helmet"
+  }
+}

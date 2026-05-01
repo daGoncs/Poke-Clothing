@@ -2,19 +2,19 @@
   "type": "poke-clothing:tailoring",
   "ingredients": [
     {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
       "item": "poke-clothing:black_cloth"
     },
     {
       "item": "poke-clothing:black_cloth"
-    },
-    {
-      "item": "poke-clothing:gray_cloth"
-    },
-    {
-      "item": "poke-clothing:gray_cloth"
-    },
-    {
-      "item": "poke-clothing:gray_cloth"
     }
   ],
   "result": {

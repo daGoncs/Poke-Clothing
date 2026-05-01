@@ -1,9 +1,12 @@
 {
   "values": [
     "poke-clothing:kanto_ash_helmet",
+    "poke-clothing:team_rocket_grunt_helmet",
     "poke-clothing:hoenn_ash_helmet",
     "poke-clothing:may_helmet",
     "poke-clothing:emerald_may_helmet",
+    "poke-clothing:team_magma_grunt_helmet",
+    "poke-clothing:team_aqua_grunt_helmet",
     "poke-clothing:sinnoh_ash_helmet",
     "poke-clothing:dawn_helmet",
     "poke-clothing:brendan_helmet",
@@ -12,7 +15,6 @@
     "poke-clothing:kalos_ash_helmet",
     "poke-clothing:alola_ash_helmet",
     "poke-clothing:galar_ash_helmet",
-    "poke-clothing:red_helmet",
-    "poke-clothing:team_rocket_grunt_helmet"
+    "poke-clothing:red_helmet"
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "poke-clothing:item/team_magma_grunt_leggings"
+  }
+}

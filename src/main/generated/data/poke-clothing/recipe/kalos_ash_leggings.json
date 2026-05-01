@@ -1,0 +1,30 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:cyan_cloth"
+    },
+    {
+      "item": "poke-clothing:cyan_cloth"
+    },
+    {
+      "item": "poke-clothing:cyan_cloth"
+    },
+    {
+      "item": "poke-clothing:cyan_cloth"
+    },
+    {
+      "item": "poke-clothing:cyan_cloth"
+    },
+    {
+      "item": "poke-clothing:cyan_cloth"
+    },
+    {
+      "item": "poke-clothing:cyan_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:kalos_ash_leggings"
+  }
+}

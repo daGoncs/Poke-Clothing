@@ -1,0 +1,21 @@
+{
+  "type": "poke-clothing:tailoring",
+  "ingredients": [
+    {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
+      "item": "poke-clothing:gray_cloth"
+    },
+    {
+      "item": "poke-clothing:red_cloth"
+    },
+    {
+      "item": "poke-clothing:red_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "poke-clothing:alola_ash_leggings"
+  }
+}

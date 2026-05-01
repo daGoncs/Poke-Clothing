@@ -1,12 +1,11 @@
 # Changelog
 
-## [1.2.0] - 2026-04-23
+## [1.2.1] - 2026-05-01
 
 ### Added
-- Added outfits for the remaining regions' Ash's outfits (Hoenn, Sinnoh, Unova, Kalos, Alola, and Galar)
+- Added outfits for Team Magma and Team Aqua
+- Added update notification in chat (can be turned off via config)
 
 ### Changed
-- Updated creative tab icon to an animated sprite cycling through all of Ash's regional hats
-- Implemented new item textures for Brock
-- Updated item textures and 3D armor models for Misty and Ash (Kanto)
-- Updated the Tailoring Station recipe for Ash's Kanto Sneakers
+- Updated item textures for Ash's caps (Kanto; Hoenn; Sinnoh and Unova)
+- Updated item textures for Misty; Brock; Team Rocket Grunt

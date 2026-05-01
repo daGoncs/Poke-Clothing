@@ -32,9 +32,12 @@ public class ItemInit {
     public static final ArmorPieces BROCK = registerSet("brock", ArmorMaterialInit.BROCK, false, true, true, true);
     public static final ArmorPieces JESSIE = registerSet("jessie", ArmorMaterialInit.JESSIE, false, true, true, true);
     public static final ArmorPieces JAMES = registerSet("james", ArmorMaterialInit.JAMES, false, true, true, true);
+    public static final ArmorPieces TEAM_ROCKET_GRUNT = registerSet("team_rocket_grunt", ArmorMaterialInit.TEAM_ROCKET_GRUNT, true, true, true, true);
     public static final ArmorPieces HOENN_ASH = registerSet("hoenn_ash", ArmorMaterialInit.HOENN_ASH, true, true, true, true);
     public static final ArmorPieces MAY = registerSet("may", ArmorMaterialInit.MAY, true, true, true, true);
     public static final ArmorPieces EMERALD_MAY = registerSet("emerald_may", ArmorMaterialInit.EMERALD_MAY, true, true, true, true);
+    public static final ArmorPieces TEAM_MAGMA_GRUNT = registerSet("team_magma_grunt", ArmorMaterialInit.TEAM_MAGMA_GRUNT, true, true, true, true);
+    public static final ArmorPieces TEAM_AQUA_GRUNT = registerSet("team_aqua_grunt", ArmorMaterialInit.TEAM_AQUA_GRUNT, true, true, true, true);
     public static final ArmorPieces SINNOH_ASH = registerSet("sinnoh_ash", ArmorMaterialInit.SINNOH_ASH, true, true, true, true);
     public static final ArmorPieces DAWN = registerSet("dawn", ArmorMaterialInit.DAWN, true, true, true, true);
     public static final ArmorPieces PLATINUM_DAWN = registerSet("platinum_dawn", ArmorMaterialInit.PLATINUM_DAWN, false, true, true, true);
@@ -45,7 +48,6 @@ public class ItemInit {
     public static final ArmorPieces ALOLA_ASH = registerSet("alola_ash", ArmorMaterialInit.ALOLA_ASH, true, true, true, true);
     public static final ArmorPieces GALAR_ASH = registerSet("galar_ash", ArmorMaterialInit.GALAR_ASH, true, true, true, true);
     public static final ArmorPieces RED = registerSet("red", ArmorMaterialInit.RED, true, true, true, true);
-    public static final ArmorPieces TEAM_ROCKET_GRUNT = registerSet("team_rocket_grunt", ArmorMaterialInit.TEAM_ROCKET_GRUNT, true, true, true, true);
 
 
     /** A clean container to hold a full or partial set of armor */

@@ -16,7 +16,7 @@ import java.util.List;
 
 public class ItemGroupInit {
     private static final Text CREATIVE_TAB = Text.translatable("itemGroup." + PokeClothing.MOD_ID + ".poke_clothing_group");
-
+/*
     private static final List<Item> ASH_CAPS = List.of(
             ItemInit.KANTO_ASH.helmet(),
             ItemInit.HOENN_ASH.helmet(),
@@ -25,7 +25,7 @@ public class ItemGroupInit {
             ItemInit.KALOS_ASH.helmet(),
             ItemInit.ALOLA_ASH.helmet(),
             ItemInit.GALAR_ASH.helmet()
-    );
+    );*/
     public static final ItemGroup POKE_CLOTHING_GROUP = register("poke_clothing_group", FabricItemGroup.builder()
             .displayName(CREATIVE_TAB)
             .icon(() -> new ItemStack(ItemInit.ASH_CAP_ICON))
@@ -39,9 +39,12 @@ public class ItemGroupInit {
                 addArmorSet(entries, ItemInit.BROCK);
                 addArmorSet(entries, ItemInit.JESSIE);
                 addArmorSet(entries, ItemInit.JAMES);
+                addArmorSet(entries, ItemInit.TEAM_ROCKET_GRUNT);
                 addArmorSet(entries, ItemInit.HOENN_ASH);
                 addArmorSet(entries, ItemInit.MAY);
                 addArmorSet(entries, ItemInit.EMERALD_MAY);
+                addArmorSet(entries, ItemInit.TEAM_MAGMA_GRUNT);
+                addArmorSet(entries, ItemInit.TEAM_AQUA_GRUNT);
                 addArmorSet(entries, ItemInit.SINNOH_ASH);
                 addArmorSet(entries, ItemInit.DAWN);
                 addArmorSet(entries, ItemInit.PLATINUM_DAWN);
@@ -52,7 +55,6 @@ public class ItemGroupInit {
                 addArmorSet(entries, ItemInit.ALOLA_ASH);
                 addArmorSet(entries, ItemInit.GALAR_ASH);
                 addArmorSet(entries, ItemInit.RED);
-                addArmorSet(entries, ItemInit.TEAM_ROCKET_GRUNT);
             })
             .build());
 
