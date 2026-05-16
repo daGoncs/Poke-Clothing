@@ -1,6 +1,6 @@
 package github.dagoncs.util;
 
-import github.dagoncs.PokeClothing;
+import github.dagoncs.pokeclothing.PokeClothing;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;

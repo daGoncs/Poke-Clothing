@@ -1,8 +1,8 @@
 package github.dagoncs.compat;
 
-import github.dagoncs.block.BlockInit;
-import github.dagoncs.recipe.ModRecipes;
-import github.dagoncs.recipe.TailoringRecipe;
+import github.dagoncs.pokeclothing.block.BlockInit;
+import github.dagoncs.pokeclothing.recipe.ModRecipes;
+import github.dagoncs.pokeclothing.recipe.TailoringRecipe;
 import me.shedaniel.rei.api.client.plugins.REIClientPlugin;
 import me.shedaniel.rei.api.client.registry.category.CategoryRegistry;
 import me.shedaniel.rei.api.client.registry.display.DisplayRegistry;

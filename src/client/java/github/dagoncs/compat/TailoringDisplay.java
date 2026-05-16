@@ -1,6 +1,6 @@
 package github.dagoncs.compat;
 
-import github.dagoncs.recipe.TailoringRecipe;
+import github.dagoncs.pokeclothing.recipe.TailoringRecipe;
 import me.shedaniel.rei.api.common.category.CategoryIdentifier;
 import me.shedaniel.rei.api.common.display.basic.BasicDisplay;
 import me.shedaniel.rei.api.common.entry.EntryIngredient;

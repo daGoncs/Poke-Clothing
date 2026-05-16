@@ -1,7 +1,7 @@
   {
 	"schemaVersion": 1,
 	"id": "poke-clothing",
-	"version": "1.21.1-1.2.1",
+	"version": "1.21.1-1.2.2",
 	"name": "Poke Clothing",
 	"description": "Adds clothes from Pokémon characters.",
 	"authors": [
@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"github.dagoncs.PokeClothing"
+          "github.dagoncs.pokeclothing.PokeClothing"
 		],
 		"client": [
 			"github.dagoncs.PokeClothingClient"

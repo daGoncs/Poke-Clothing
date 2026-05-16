@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "github.dagoncs.mixin.client",
+	"package": "github.dagoncs.pokeclothing.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

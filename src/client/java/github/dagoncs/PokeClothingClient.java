@@ -1,8 +1,8 @@
 package github.dagoncs;
-import github.dagoncs.config.PokeClothingConfig;
-import github.dagoncs.screen.ModScreenHandlers;
+import github.dagoncs.pokeclothing.config.PokeClothingConfig;
+import github.dagoncs.pokeclothing.screen.ModScreenHandlers;
 
-import github.dagoncs.screen.TailoringStationScreen;
+import github.dagoncs.pokeclothing.screen.TailoringStationScreen;
 import github.dagoncs.util.UpdateChecker;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;

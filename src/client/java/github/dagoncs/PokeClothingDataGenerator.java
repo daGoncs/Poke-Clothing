@@ -1,8 +1,8 @@
 package github.dagoncs;
 
-import github.dagoncs.data.provider.PokeClothingModelProvider;
-import github.dagoncs.data.provider.PokeClothingRecipeProvider;
-import github.dagoncs.data.provider.PokeClothingTagProvider;
+import github.dagoncs.pokeclothing.provider.PokeClothingModelProvider;
+import github.dagoncs.pokeclothing.provider.PokeClothingRecipeProvider;
+import github.dagoncs.pokeclothing.provider.PokeClothingTagProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

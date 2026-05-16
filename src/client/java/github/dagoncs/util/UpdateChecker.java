@@ -3,8 +3,8 @@ package github.dagoncs.util;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import github.dagoncs.PokeClothing;
-import github.dagoncs.config.PokeClothingConfig;
+import github.dagoncs.pokeclothing.PokeClothing;
+import github.dagoncs.pokeclothing.config.PokeClothingConfig;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.Version;
 
